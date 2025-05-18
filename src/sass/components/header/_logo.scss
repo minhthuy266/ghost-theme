@@ -1,0 +1,24 @@
+.m-logo {
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+  img {
+    width: auto;
+    max-width: 600px;
+    height: 100%;
+    object-fit: contain;
+
+    &.m-logo__image-light {
+      display: var(--toggle-darkmode-button-display-moon);
+    }
+
+    &.m-logo__image-dark {
+      display: var(--toggle-darkmode-button-display-sun);
+    }
+  }
+
+  &.in-mobile-topbar {
+    margin: 0 $mobile-space;
+  }
+}
