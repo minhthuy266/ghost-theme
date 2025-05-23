@@ -25,7 +25,7 @@
 
     @include respond-to("medium") {
       padding-top: 10px;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
     }
   }
 
@@ -81,13 +81,13 @@
     letter-spacing: 0.2px;
     line-height: 1.5;
     font-size: 1.125rem;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 
     @include respond-to("medium") {
       letter-spacing: 0.3px;
       line-height: 1.6;
       font-size: 1.25rem;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
     }
 
     img {
@@ -132,7 +132,7 @@
   }
 
   li {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 
   img,
@@ -198,7 +198,6 @@
 
     &.kg-width-full {
       @include respond-to("medium") {
-        width: 100vw;
         margin-left: 50%;
         @include transform(translateX(-50%));
       }
@@ -754,6 +753,7 @@
 
   .kg-product-card-container {
     margin-top: 20px;
+    margin-bottom: 20px;
 
     @include respond-to("medium") {
       display: grid;
