@@ -766,7 +766,7 @@
     > :nth-child(1) {
       height: 280px;
       width: 100%;
-      object-fit: cover;
+      object-fit: contain;
       @include respond-to("medium") {
         grid-area: 1/1/5/2;
       }
