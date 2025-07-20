@@ -758,7 +758,6 @@
     @include respond-to("medium") {
       display: grid;
       grid-template-columns: 40% 1fr;
-      grid-template-rows: 10% 50% 10% 1fr;
       grid-gap: 20px;
       max-width: 100% !important;
     }
